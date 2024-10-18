@@ -1,0 +1,18 @@
+@charset "TUF-8";
+
+body {
+    background-color: rgb(208, 240, 237);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+h1 {
+    color: rgb(33, 81, 240);
+}
+h2 {
+    color: darkmagenta;
+}
+ol {
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}

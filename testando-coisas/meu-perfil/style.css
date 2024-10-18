@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+
+background-color: white;
+text-align: justify;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+  margin: auto;
+  width: 229px;
+  height:auto
+
+}
+#principal {
+    background-color: white;
+    color: black;
+    margin: 10px;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.856);
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    color:rgb(255, 255, 255)
+    
+}
+
+h2 {
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    border: 3px solid white;
+    text-align: center;
+    color:rgb(255, 255, 255)
+}
+p {
+    color:rgb(0, 0, 0)
+}
+ul {
+    color: rgba(0, 0, 0, 0.658);
+}

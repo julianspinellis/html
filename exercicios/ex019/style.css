@@ -1,0 +1,33 @@
+@charset "TFU-8";
+
+body {
+    background-color: rgb(189, 236, 201);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:#321c81
+}
+h1#principal {
+    color:#792b2b;
+    text-align: center;
+    background-color: #1c8129;
+    padding: 5px;
+    border-radius: 5px;
+    width: 800px;
+}
+
+h2 {
+
+}
+.basico {
+    color: rgb(0, 204, 255);
+
+}
+.intermediario {
+    color:rgba(11, 11, 112, 0.623);
+}
+
+.avançado {
+    color: rgb(8, 197, 172);
+}

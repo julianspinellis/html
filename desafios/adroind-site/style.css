@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'idroid';
+    src:url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #82faa2;
+}
+
+header {
+    background-image: linear-gradient(to bottom,#42CA66, #2e613b);
+    height: 100px;
+    width: 100%, 50%, 30%;
+    padding: 60px;
+    outline: 100px;
+    margin: 5px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.432);
+    
+}
+header > h1 {
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.315);
+}
+header > article {
+    width: 430px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.151);
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+}
+nav> a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.418);
+}
+
+#h1main {
+    font-family: 'idroid';
+    color: #227e39;
+    font-size: 35px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.308);
+}
+.h2main{
+    background-image: linear-gradient(to right, rgb(195, 243, 195), white);
+    font-family: 'idroid';
+    color: #227e39;
+}
+.pmain {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: 500;  
+}
+.imagem{
+    width: 300px;
+    margin: auto;
+}
+.video {
+    background-color: #227e39;
+    height:400px;
+    width: 700px;
+    margin: auto;
+    padding: 30px 55px 30px 45px;
+    border: 2px 2px;
+}
+h3 {
+    background-color: #75c088;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.295);
+    padding: 10px;
+    text-align: left;
+    border-radius: 8px 8px 0px 0px;
+}
+.divfinal {
+    background-color: #c7eed2;
+    width: 800px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.219);
+}
+
+.lista1 {
+    width: 200px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.lista2 {
+
+    width: 200px;
+    margin-top: auto;
+    display: inline-block;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+    background-color: #2e613b;
+    padding: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.096);
+    text-align: center;
+}

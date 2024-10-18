@@ -1,0 +1,71 @@
+@charset "TFU-8";
+@font-face {
+    font-family: Love;
+    src: url('love larry ttf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    
+    font-family:Lato, Helvetica, sans-serif
+}
+body {
+    background-image: linear-gradient(to right, black, white );
+}
+main {
+    background-color: white;
+    width: 700px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+    
+}
+
+h1 {
+    font: italic normal 2em 'Cinzel', 'Times New Roman', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+.História {
+    font: normal bold 1.5em 'Love', Arial, 'sans-serif';
+    text-align: left;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 5px;
+    padding: 2px;
+}
+.sub-titulo {
+    font: normal bold 1.5em 'Love', Arial, 'sans-serif';
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 5px;
+    padding: 2px;
+}
+.sub-titulo:hover {
+    color: red;
+}
+
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+div:hover {
+    color: red;
+    background-color: black;
+}
+
+
