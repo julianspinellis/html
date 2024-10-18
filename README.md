@@ -1,3 +1,4 @@
 # html
  Curso de HTML e CSS
-Será que este caralho está prestando? 
+
+<a ref="https://julianspinellis.github.io/html/exercicios/ex001/index.html"> Exercutar o exercício 001 </a>
